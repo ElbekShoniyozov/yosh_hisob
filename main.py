@@ -1,5 +1,7 @@
+from datetime import datetime
 
-now=2023
+year = datetime.now().year
+now=year
 f1=input("1-Foydalanuvchi Ismingizni kiririting:  ")
 y1=int(input("Tug'ulgan yilingizni kiriting:  "))
 yosh1=now-y1
